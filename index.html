@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>Ismail's Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#academic"><i class="fas fa-graduation-cap"></i> Academic</a></li>
+            <li><a href="#certifications"><i class="fas fa-certificate"></i> Certifications</a></li>
+            <li><a href="#hobbies"><i class="fas fa-heart"></i> Hobbies</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            <li><a href="#feedback"><i class="fas fa-comment-dots"></i> Feedback</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>Welcome <span> Ismail's Profile </span> </h1>
+        <img src="image.jpg" alt="Ismail's Photo">
+        <h3><span>Hello! I am Ismail.</span> Welcome to my personal profile website.</h3>
+    </section>
+
+    <section id="academic">
+        <h2><span>Academic Achievements</span></h2>
+        <p>Bachelor of Science in Computer Science from Umma University.</p>
+        <p>Master of Science in Artificial Intelligence from Umma University.</p>
+    </section>
+
+    <section id="certifications">
+        <h2><span>Certifications</span></h2>
+        <ul>
+            <li>Certified Data Scientist from DataCamp</li>
+            <li>Certified Cloud Practitioner from AWS</li>
+            <li>Certified Ethical Hacker from EC-Council</li>
+        </ul>
+    </section>
+
+    <section id="hobbies">
+        <h2><span>Hobbies</span></h2>
+        <p>I enjoy hiking, photography, and coding new projects.</p>
+    </section>
+
+    <section id="contact">
+        <h2><span>Contact</span></h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" required>
+            <label for="email">Email:</label>
+            <input type="email"  required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <section id="feedback">
+        <h2><span>Feedback</span></h2>
+        <form>
+            <label for="feedback-name">Name:</label>
+            <input type="text" id="feedback-name" name="feedback-name" required>
+            <label for="feedback-email">Email:</label>
+            <input type="email" id="feedback-email" name="feedback-email" required>
+            <label for="feedback-message">Message:</label>
+            <textarea id="feedback-message" name="feedback-message" required></textarea>
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section> 
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
